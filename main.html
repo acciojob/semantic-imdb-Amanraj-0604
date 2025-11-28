@@ -1,53 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Stranger Things</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stranger Things</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <h1>Stranger Things</h1>
-        <nav>
-            <a id="nav-actor" href="#actor">Actors</a>
-            <a id="nav-quote" href="#quote">Quote</a>
-        </nav>
-    </header>
 
-    <!-- Summary Section -->
-    <section id="summary">
-        <h2>Summary</h2>
-        <p>Stranger Things is a sci-fi thriller where a group of kids uncover supernatural mysteries involving parallel worlds and government experiments.</p>
-    </section>
+  <!-- Header (includes movie name) -->
+  <header>
+    <h1>Stranger Things</h1>
+  </header>
 
-    <!-- Actor Section -->
-    <section id="actor">
-        <h2>Main Actors</h2>
-        <ul>
-            <li>Millie Bobby Brown as Eleven</li>
-            <li>Finn Wolfhard as Mike Wheeler</li>
-            <li>David Harbour as Jim Hopper</li>
-            <li>Winona Ryder as Joyce Byers</li>
-        </ul>
-    </section>
+  <!-- Navigation (links to actor and quote sections, with required ids) -->
+  <nav>
+    <p>Jump to:</p>
+    <a id="nav-actor" href="#actor">Actors</a> |
+    <a id="nav-quote" href="#quote">Quote</a>
+  </nav>
 
-    <!-- Quote Section -->
-    <section id="quote">
-        <h2>Favorite Quote</h2>
-        <blockquote>
-            “Friends don’t lie.”
-        </blockquote>
-    </section>
+  <!-- Summary (separate, brief plot summary) -->
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>
+      In a small town, a group of kids discover a secret government experiment and a
+      mysterious girl with supernatural powers; as strange events unfold they face
+      another dark dimension called the Upside Down.
+    </p>
+  </section>
 
-    <aside>
-        <p><strong>IMDb Rating:</strong> 8.7/10</p>
-        <p><strong>Release Year:</strong> 2016</p>
-    </aside>
+  <!-- Actor section with id="actor" -->
+  <section id="actor">
+    <h2>Main Actors</h2>
+    <ul>
+      <li>Millie Bobby Brown — Eleven</li>
+      <li>Finn Wolfhard — Mike Wheeler</li>
+      <li>Winona Ryder — Joyce Byers</li>
+      <li>David Harbour — Jim Hopper</li>
+    </ul>
+  </section>
 
-    <footer>
-        Produced by: Aman Raj
-    </footer>
+  <!-- Quote section with id="quote" -->
+  <section id="quote">
+    <h2>Favorite Quote</h2>
+    <blockquote>
+      "Friends don't lie."
+    </blockquote>
+  </section>
 
-    <script type="text/javascript" src="./script.js"></script>
+  <!-- Aside containing IMDb rating and release date -->
+  <aside>
+    <p><strong>IMDb Rating:</strong> 8.7/10</p>
+    <p><strong>Release Year:</strong> 2016</p>
+  </aside>
+
+  <!-- Footer showing producer -->
+  <footer>
+    Produced by: Aman Raj
+  </footer>
+
+  <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
